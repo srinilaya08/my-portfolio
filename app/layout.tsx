@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://my-portfolio-roan-psi-89.vercel.app"),
 
   title: {
     default: "Srinilaya Marripalli | CSE Student & Web Developer",
