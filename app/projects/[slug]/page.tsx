@@ -27,7 +27,7 @@ const projectDetails = {
     ],
     github: "https://github.com/srinilaya08/CodeLab",
     accent: "from-amber-100 via-orange-50 to-rose-100",
-    deploy: "yes",
+    deploy: "no",
   },
   "gym-enquiry-portal": {
     number: "02",
@@ -45,7 +45,7 @@ const projectDetails = {
     ],
     github: "https://github.com/srinilaya08/gym-website-enquiry-portal",
     accent: "from-sky-100 via-cyan-50 to-indigo-100",
-    deploy: "yes",
+    deploy: "no",
   },
   textutils: {
     number: "03",

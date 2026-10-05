@@ -28,7 +28,7 @@ const projects = [
     accent: "from-amber-100 via-orange-50 to-rose-100",
     slug: "codelab",
     href: "https://github.com/srinilaya08/CodeLab",
-    deploy: "yes",
+    deploy: "no",
   },
   {
     number: "02",
@@ -39,7 +39,7 @@ const projects = [
     accent: "from-sky-100 via-cyan-50 to-indigo-100",
     slug: "gym-enquiry-portal",
     href: "https://github.com/srinilaya08/gym-website-enquiry-portal",
-    deploy: "yes",
+    deploy: "no",
   },
   {
     number: "03",
@@ -105,9 +105,14 @@ export function Portfolio() {
             asChild
             className="hidden rounded-full bg-[#17221e] px-4 text-xs text-[#f7f7f4] hover:bg-[#294039] sm:inline-flex"
           >
-            <a href="/resume.pdf"
-            className="flex items-center gap-1.5 whitespace-nowrap">
-              Download resume <ArrowUpRight data-icon="inline-end" />
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 whitespace-nowrap"
+            >
+              Download resume
+              <ArrowUpRight data-icon="inline-end" />
             </a>
           </Button>
           <button
@@ -160,8 +165,10 @@ export function Portfolio() {
                 asChild
                 className="rounded-full bg-[#17221e] px-5 text-[#f7f7f4] hover:bg-[#294039]"
               >
-                <a href="#work"
-                 className="flex items-center gap-1.5 whitespace-nowrap">
+                <a
+                  href="#work"
+                  className="flex items-center gap-1.5 whitespace-nowrap"
+                >
                   See my work <ArrowUpRight data-icon="inline-end" />
                 </a>
               </Button>
@@ -170,8 +177,10 @@ export function Portfolio() {
                 variant="outline"
                 className="rounded-full border-[#17221e]/20 bg-transparent px-5"
               >
-                <a href="#contact"
-                 className="flex items-center gap-1.5 whitespace-nowrap">
+                <a
+                  href="#contact"
+                  className="flex items-center gap-1.5 whitespace-nowrap"
+                >
                   Let&apos;s connect <Mail data-icon="inline-end" />
                 </a>
               </Button>
@@ -290,7 +299,9 @@ export function Portfolio() {
             </p>
             <div className="mt-10 grid gap-8 border-t border-[#17221e]/10 pt-8 sm:grid-cols-2">
               <div>
-                <p className="text-4xl font-semibold tracking-[-0.05em]">8.3/ 10</p>
+                <p className="text-4xl font-semibold tracking-[-0.05em]">
+                  8.3/ 10
+                </p>
                 <p className="mt-2 text-sm text-[#17221e]/55">
                   Academic performance · B.Tech CSE
                 </p>
@@ -428,7 +439,12 @@ export function Portfolio() {
                 variant="outline"
                 className="rounded-full border-[#17221e]/20 bg-transparent"
               >
-                <a href="https://github.com/srinilaya08/"  className="flex items-center gap-1.5 whitespace-nowrap" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/srinilaya08/"
+                  className="flex items-center gap-1.5 whitespace-nowrap"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <Code2 data-icon="inline-start" /> GitHub
                 </a>
               </Button>
